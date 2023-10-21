@@ -1,0 +1,2 @@
+﻿  test.c
+C:\Users\Edwin\source\repos\整型输入判断类型正确\整型输入判断类型正确\test.c(8,11): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

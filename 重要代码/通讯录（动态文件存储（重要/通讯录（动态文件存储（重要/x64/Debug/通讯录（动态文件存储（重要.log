@@ -1,0 +1,8 @@
+﻿  contact.c
+C:\Users\Edwin\source\repos\通讯录（动态文件存储（重要\通讯录（动态文件存储（重要\contact.c(21,5): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+C:\Users\Edwin\source\repos\通讯录（动态文件存储（重要\通讯录（动态文件存储（重要\contact.c(169,26): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
+C:\Users\Edwin\source\repos\通讯录（动态文件存储（重要\通讯录（动态文件存储（重要\contact.c(169,39): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
+C:\Users\Edwin\source\repos\通讯录（动态文件存储（重要\通讯录（动态文件存储（重要\contact.c(173,26): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
+C:\Users\Edwin\source\repos\通讯录（动态文件存储（重要\通讯录（动态文件存储（重要\contact.c(173,39): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
+C:\Users\Edwin\source\repos\通讯录（动态文件存储（重要\通讯录（动态文件存储（重要\contact.c(210,5): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  通讯录（动态文件存储（重要.vcxproj -> C:\Users\Edwin\source\repos\通讯录（动态文件存储（重要\x64\Debug\通讯录（动态文件存储（重要.exe
