@@ -1,8 +1,8 @@
 ﻿  contact.c
-C:\Users\Edwin\source\repos\通讯录动态（重要\通讯录动态（重要\contact.c(142,26): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
-C:\Users\Edwin\source\repos\通讯录动态（重要\通讯录动态（重要\contact.c(142,39): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
-C:\Users\Edwin\source\repos\通讯录动态（重要\通讯录动态（重要\contact.c(146,26): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
-C:\Users\Edwin\source\repos\通讯录动态（重要\通讯录动态（重要\contact.c(146,39): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
+D:\git code\Import-Item\重要代码\通讯录动态（重要\通讯录动态（重要\contact.c(142,26): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
+D:\git code\Import-Item\重要代码\通讯录动态（重要\通讯录动态（重要\contact.c(142,39): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
+D:\git code\Import-Item\重要代码\通讯录动态（重要\通讯录动态（重要\contact.c(146,26): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
+D:\git code\Import-Item\重要代码\通讯录动态（重要\通讯录动态（重要\contact.c(146,39): warning C4133: “函数”: 从“Contact *”到“const char *”的类型不兼容
   test.c
   正在生成代码...
-  通讯录动态（重要.vcxproj -> C:\Users\Edwin\source\repos\通讯录动态（重要\x64\Debug\通讯录动态（重要.exe
+  通讯录动态（重要.vcxproj -> D:\git code\Import-Item\重要代码\通讯录动态（重要\x64\Debug\通讯录动态（重要.exe
