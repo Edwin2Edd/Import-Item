@@ -75,24 +75,73 @@ static int IsFull(char arr[][COL], int row, int col) {
 	return 1;
 }
 
-//玩家胜利 -'*' 电脑胜利 -'#' 平局 -'p' 继续 -'C'
+//旧版
+////玩家胜利 -'*' 电脑胜利 -'#' 平局 -'p' 继续 -'C'
+//char IsWin(char arr[][COL], int row, int col) {
+//	for (int i = 0; i < row; i++) {
+//		if (arr[i][0] == arr[i][1] && arr[i][1] == arr[i][2] && arr[i][0] != ' ')
+//			return arr[i][0];
+//	}
+//	for (int i = 0; i < col; i++) {
+//		if (arr[0][i] == arr[1][i] && arr[1][i] == arr[2][i] && arr[0][i] != ' ')
+//			return arr[0][i];
+//	}
+//	if (arr[0][0] == arr[1][1] && arr[1][1] == arr[2][2] && arr[1][1] != ' ')
+//		return arr[1][1];
+//	if (arr[2][0] == arr[1][1] && arr[1][1] == arr[0][2] && arr[1][1] != ' ')
+//		return arr[1][1];
+//	if (IsFull(arr, row, col)) {//判断棋盘是否满
+//		return 'p';
+//	}
+//	else{
+//		return 'C';
+//	}
+//}
+
+//新版
 char IsWin(char arr[][COL], int row, int col) {
-	for (int i = 0; i < row; i++) {
-		if (arr[i][0] == arr[i][1] && arr[i][1] == arr[i][2] && arr[i][0] != ' ')
+	int i = 0;
+	int j = 0;
+	for (i = 0; i < row; i++){
+		int recordrow = 0;
+		int recordcol = 0;
+		for (j = 0; j < col; j++) {
+			if (arr[i][0] == arr[i][j] && arr [i][j] != ' ') {
+				recordrow++;
+			}
+			if (arr[0][i] == arr[i][j] && arr[i][j] != ' ') {
+				recordcol++;
+			}
+		}
+		if (recordrow == row)
 			return arr[i][0];
-	}
-	for (int i = 0; i < col; i++) {
-		if (arr[0][i] == arr[1][i] && arr[1][i] == arr[2][i] && arr[0][i] != ' ')
+		if (recordcol == col)
 			return arr[0][i];
 	}
-	if (arr[0][0] == arr[1][1] && arr[1][1] == arr[2][2] && arr[1][1] != ' ')
-		return arr[1][1];
-	if (arr[2][0] == arr[1][1] && arr[1][1] == arr[0][2] && arr[1][1] != ' ')
-		return arr[1][1];
-	if (IsFull(arr, row, col)) {//判断棋盘是否满
+	int recordleft = 0;
+	int recordright = 0;
+	for (i = 0; i < row; i++) {
+		j = i;
+		if (arr[0][0] == arr[i][j] && arr[i][j] != ' ') {
+			recordleft++;
+		}
+	}
+	if (recordleft == row)
+		return arr[0][0];
+
+	for (i = 0 ; i < col; i++) {
+		j = row - 1 - i;
+		if (arr[0][row - 1] == arr[i][j] && arr[i][j] != ' ') {
+			recordright++;
+		}
+	}
+	if (recordright == row)
+		return arr[0][row - 1];
+
+	if (IsFull(arr, row, col)) {
 		return 'p';
 	}
-	else{
+	else {
 		return 'C';
 	}
 }
