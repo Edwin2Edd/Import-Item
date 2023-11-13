@@ -1,0 +1,7 @@
+﻿  List.c
+C:\Users\Edwin\source\repos\带头双向循环链表（重要\带头双向循环链表（重要\List.h(1,1): warning C4828: 文件包含在偏移 0x361 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+C:\Users\Edwin\source\repos\带头双向循环链表（重要\带头双向循环链表（重要\List.c(11,15): warning C4047: “=”:“LTDataType *”与“LTDataType”的间接级别不同
+C:\Users\Edwin\source\repos\带头双向循环链表（重要\带头双向循环链表（重要\List.c(73,16): warning C4047: “==”:“LTDataType *”与“LTDataType”的间接级别不同
+C:\Users\Edwin\source\repos\带头双向循环链表（重要\带头双向循环链表（重要\List.c(107,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“LTDataType *”
+C:\Users\Edwin\source\repos\带头双向循环链表（重要\带头双向循环链表（重要\List.c(107,10): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "LTDataType *" 的参数 1 冲突
+  带头双向循环链表（重要.vcxproj -> C:\Users\Edwin\source\repos\带头双向循环链表（重要\x64\Debug\带头双向循环链表（重要.exe
