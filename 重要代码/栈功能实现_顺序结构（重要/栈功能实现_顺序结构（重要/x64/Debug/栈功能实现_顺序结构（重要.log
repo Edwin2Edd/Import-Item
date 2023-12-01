@@ -1,0 +1,9 @@
+﻿  stack.c
+C:\Users\Edwin\source\repos\栈功能实现_顺序结构（重要\栈功能实现_顺序结构（重要\stack.c(11,41): warning C4029: 声明的形参表不同于定义
+  test.c
+C:\Users\Edwin\source\repos\栈功能实现_顺序结构（重要\栈功能实现_顺序结构（重要\test.c(7,16): warning C4020: “StackPush”: 实参太多
+C:\Users\Edwin\source\repos\栈功能实现_顺序结构（重要\栈功能实现_顺序结构（重要\test.c(8,16): warning C4020: “StackPush”: 实参太多
+C:\Users\Edwin\source\repos\栈功能实现_顺序结构（重要\栈功能实现_顺序结构（重要\test.c(9,16): warning C4020: “StackPush”: 实参太多
+C:\Users\Edwin\source\repos\栈功能实现_顺序结构（重要\栈功能实现_顺序结构（重要\test.c(10,16): warning C4020: “StackPush”: 实参太多
+  正在生成代码...
+  栈功能实现_顺序结构（重要.vcxproj -> C:\Users\Edwin\source\repos\栈功能实现_顺序结构（重要\x64\Debug\栈功能实现_顺序结构（重要.exe

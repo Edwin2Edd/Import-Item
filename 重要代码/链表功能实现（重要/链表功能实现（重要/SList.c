@@ -63,7 +63,7 @@ void SListPopFront(SListNode** pplist) {
 }
 
 SListNode* SListFind(SListNode* plist, SLTDataType x){
-	assert(plist);
+	/*assert(plist);*/
 	SListNode* tail = plist;
 	while (tail != NULL) {
 		if (tail->data == x)
@@ -92,8 +92,8 @@ void SListEraseAfter(SListNode* pos) {
 }
 
 void SLTInsert(SListNode** pplist, SListNode* pos, SLTDataType x) {
-	assert(pplist);
 	assert(pos);
+	assert(pplist);
 	SListNode* into = BuySListNode(x);
 	SListNode* tail = *pplist;
 	if (tail == pos) {
@@ -139,11 +139,9 @@ void SLTDestroy(SListNode** pplist) {
 	assert(pplist);
 	SListNode* tail = *pplist;
 	while (tail){
-		SListNode* free_ele = NULL;
-		free_ele = tail;
-		tail = tail->next;
-		free(free_ele);
-		free_ele = NULL;
+		*pplist = (*pplist)->next;
+		free(tail);
+		tail = *pplist;
 	}
 	*pplist = NULL;
 }

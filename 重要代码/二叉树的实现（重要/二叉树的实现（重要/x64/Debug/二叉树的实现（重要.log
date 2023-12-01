@@ -1,0 +1,5 @@
+﻿  BinaryTree.c
+C:\Users\Edwin\source\repos\重要代码\二叉树的实现（重要\二叉树的实现（重要\BinaryTree.c(10,3): warning C4033: “BinaryTreeCreate”必须返回值
+C:\Users\Edwin\source\repos\重要代码\二叉树的实现（重要\二叉树的实现（重要\BinaryTree.c(75): warning C4715: “BinaryTreeFindNode”: 不是所有的控件路径都返回值
+C:\Users\Edwin\source\repos\重要代码\二叉树的实现（重要\二叉树的实现（重要\BinaryTree.c(24): warning C4715: “BinaryTreeCreate”: 不是所有的控件路径都返回值
+  二叉树的实现（重要.vcxproj -> C:\Users\Edwin\source\repos\重要代码\二叉树的实现（重要\x64\Debug\二叉树的实现（重要.exe

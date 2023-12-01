@@ -8,7 +8,7 @@
 #define ROWS ROW+2
 #define COLS COL+2
 
-#define easy_game 5
+#define easy_game 4
 
 //³õÊ¼»¯µØÀ×
 void InitBoard(char ground[][COLS], int rows, int cols, char set);
